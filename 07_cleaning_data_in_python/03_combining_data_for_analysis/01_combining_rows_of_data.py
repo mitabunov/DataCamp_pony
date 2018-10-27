@@ -19,7 +19,7 @@ INSTRUCTIONS:
 
 import pandas as pd
 
-uber = pd.read_csv('../_datasets/nyc_uber_2014.csv')
+uber = pd.read_csv('../_datasets/nyc_uber_2014.csv', index_col='Unnamed: 0')
 
 uber1 = uber[uber['Date/Time'].str.contains('4/1/2014')]
 uber2 = uber[uber['Date/Time'].str.contains('5/1/2014')]
@@ -36,3 +36,8 @@ print("row_contact shape: "+str(row_concat.shape))
 # Print the head of row_concat
 print(row_concat.head())
 print(row_concat.tail())
+
+# Exercise extension to create files for chapter 3 lesson 3
+uber1.to_csv('../_datasets/uber-raw-data-2014_04.csv', sep=',')
+uber2.to_csv('../_datasets/uber-raw-data-2014_05.csv', sep=',')
+uber3.to_csv('../_datasets/uber-raw-data-2014_06.csv', sep=',')
