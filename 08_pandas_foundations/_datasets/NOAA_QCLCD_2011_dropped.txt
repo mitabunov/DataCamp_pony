@@ -1,4 +1,5 @@
 Wban,date,Time,StationType,sky_condition,visibility,dry_bulb_faren,dry_bulb_cel,wet_bulb_faren,wet_bulb_cel,dew_point_faren,dew_point_cel,relative_humidity,wind_speed,wind_direction,station_pressure,sea_level_pressure
+13904,20110101,53,12,OVC045,10.00,51,10.6,38,3.1,15,-9.4, 24,15,360,29.42,29.95
 13904,20110101,153,12,OVC049,10.00,51,10.6,37,3.0,14,-10.0, 23,10,340,29.49,30.01
 13904,20110101,253,12,OVC060,10.00,51,10.6,37,2.9,13,-10.6, 22,15,010,29.49,30.01
 13904,20110101,353,12,OVC065,10.00,50,10.0,38,3.1,17,-8.3, 27, 7,350,29.51,30.03
