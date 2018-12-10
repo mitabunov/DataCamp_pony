@@ -1,14 +1,11 @@
 """
 Computing percentage change in fraction of medals won:
 Here, you'll start with the DataFrames editions, medals, medal_counts, & fractions from prior exercises.
-
 To see if there is a host country advantage, you first want to see how the fraction of medals won changes from edition
 to edition.
-
 The expanding mean provides a way to see this down each column. It is the value of the mean with all the data available
 up to that point in time. If you are interested in learning more about pandas' expanding transformations, this section
 of the pandas documentation has additional information.
-
 Instructions:
 *   Create mean_fractions by chaining the methods .expanding().mean() to fractions.
 *   Compute the percentage change in mean_fractions down each column by applying .pct_change() and multiplying by 100.
